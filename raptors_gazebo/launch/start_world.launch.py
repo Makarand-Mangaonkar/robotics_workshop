@@ -48,7 +48,7 @@ def generate_launch_description():
     return LaunchDescription([
         DeclareLaunchArgument(
           'world',
-          default_value=[os.path.join(pkg_raptors_gazebo, 'worlds', 'eric.world'), ''],
+          default_value=[os.path.join(pkg_raptors_gazebo, 'worlds', 'docking.world'), ''],
           description='SDF world file'),
         gazebo
     ])
